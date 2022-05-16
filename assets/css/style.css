@@ -1,0 +1,51 @@
+/* variáveis */
+:root {
+    --brand-color: #BE123C;
+    --dark-color: #504D4D;
+    --mid-color: #380a14;
+    --light-color: #FFFFFF;
+}
+
+.bg-primary {
+    background-color: var(--mid-color) !important;
+}
+
+.text-white {
+    color: var(--light-color);
+}
+
+
+/* gallery  */
+
+.gallery {
+    background-color: #dbddf1;
+    padding: 60px 40px;
+    min-height: 100vh;
+}
+
+.gallery-item {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.gallery-item:hover {
+    transform: rotate(0);
+}
+
+.left-rotate {
+    transform: rotate(-7deg);
+}
+
+.right-rotate {
+    transform: rotate(7deg);
+}
